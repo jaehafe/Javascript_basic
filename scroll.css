@@ -1,0 +1,21 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  /* 위로 겹치기 */
+}
+
+.navbar-brand {
+  font-size: 30px;
+  transition: all 1s;
+}
+
+.style {
+  height: 1000vh;
+}
+
+.lorem {
+  width: 200px;
+  height: 100px;
+  overflow-y: scroll;
+}
