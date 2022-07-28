@@ -1,0 +1,19 @@
+{
+  "name": "appleco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array함수.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaehafe/appleco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaehafe/appleco/issues"
+  },
+  "homepage": "https://github.com/jaehafe/appleco#readme"
+}

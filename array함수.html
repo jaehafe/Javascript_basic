@@ -1,0 +1,33 @@
+<script>
+  let products = [
+  {id: 0, price: 70000, title: 'Blossom Dress'},
+  {id: 1, price: 50000, title: 'Springfield Shirt'},
+  {id: 2, price: 60000, title: 'Black Monastery'}
+];
+
+// sort함수: 오름차순 정렬, .sort() 원본변형
+let 어레이 = [7, 3, 5, 2, 40];
+어레이.sort(function (a, b) {
+  return a - b 
+});
+console.log(어레이);
+
+// 필터함수: .filter() 원본 변형x
+let array = [7, 3, 5, 2, 40];
+
+let newarray = array.filter(function(a) {
+  return a < 4
+});
+console.log((newarray));
+
+// array 자료 전부 변형하려면 .map()
+let array = [7, 3, 5, 2, 40];
+
+let newarray = array.map(function(a) {
+  return a * 4
+});
+console.log((newarray));
+
+
+
+</script>
